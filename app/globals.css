@@ -6,6 +6,7 @@
   --primary: rgb(59, 130, 246);
   --primary-foreground: white;
   --muted-foreground: rgb(182, 179, 179);
+  --foreground:  rgb(210, 196, 196);
   
 }
 
@@ -13,31 +14,32 @@
 
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 240 10% 3.9%;
-  --card: 0 0% 100%;
-  --card-foreground: 240 10% 3.9%;
-  --popover: 0 0% 100%;
-  --popover-foreground: 240 10% 3.9%;
-  --primary: 240 5.9% 10%;
-  --primary-foreground: 0 0% 98%;
-  --secondary: 240 4.8% 95.9%;
-  --secondary-foreground: 240 5.9% 10%;
-  --muted: 240 4.8% 95.9%;
-  --muted-foreground: 240 3.8% 46.1%;
-  --accent: 240 4.8% 95.9%;
-  --accent-foreground: 240 5.9% 10%;
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 0 0% 98%;
-  --border: 240 5.9% 90%;
-  --input: 240 5.9% 90%;
-  --ring: 240 5.9% 10%;
+  --background: rgb(59, 130, 246);
+  --foreground: rgb(9, 9, 10);
+  --card: rgb(255, 255, 255);
+  --card-foreground: rgb(9, 9, 10);
+  --popover: rgb(255, 255, 255);
+  --popover-foreground: rgb(9, 9, 10);
+  --primary: rgb(59, 130, 246);
+  --primary-foreground: rgb(59, 130, 246);
+  --secondary: rgb(242, 242, 245);
+  --secondary-foreground: rgb(24, 25, 26);
+  --muted: rgb(242, 242, 245);
+  --muted-foreground: rgb(116, 117, 133);
+  --accent: rgb(242, 242, 245);
+  --accent-foreground: rgb(24, 25, 26);
+  --destructive: rgb(229, 57, 53);
+  --destructive-foreground: rgb(250, 250, 250);
+  --border: rgb(229, 229, 234);
+  --input: rgb(229, 229, 234);
+  --ring: rgb(24, 25, 26);
   --radius: 0.5rem;
-  --chart-1: 12 76% 61%;
-  --chart-2: 173 58% 39%;
-  --chart-3: 197 37% 24%;
-  --chart-4: 43 74% 66%;
-  --chart-5: 27 87% 67%;
+  --chart-1: rgb(255, 122, 77);
+  --chart-2: rgb(23, 133, 101);
+  --chart-3: rgb(41, 76, 99);
+  --chart-4: rgb(243, 210, 99);
+  --chart-5: rgb(255, 193, 103);
+  
 }
 
 .dark {
